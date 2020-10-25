@@ -31,7 +31,7 @@ def get_english_meaning(file, japanese_emoticon)
     result
   #else
     #sorry_message
-  end
+  #end
 end
 
 
