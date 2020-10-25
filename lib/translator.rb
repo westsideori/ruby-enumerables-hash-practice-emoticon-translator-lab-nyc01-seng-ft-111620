@@ -22,7 +22,6 @@ def get_english_meaning(file, japanese_emoticon)
     if languages[:japanese] == japanese_emoticon
         result = meaning
       end
-    end
   end
   if result
     result
