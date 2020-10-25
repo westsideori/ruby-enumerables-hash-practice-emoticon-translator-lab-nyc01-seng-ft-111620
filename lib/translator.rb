@@ -17,7 +17,7 @@ end
 def get_english_meaning(file, japanese_emoticon)
   hash_library = load_library(file)
   result = nil
-  sorry_message = nil
+  sorry_message = "Sorry, that emoticon was not found"
   hash_library.each do |meaning, languages|
     languages.each do |key, value|
       if value == japanese_emoticon
@@ -25,11 +25,11 @@ def get_english_meaning(file, japanese_emoticon)
       end
     end
   end
-  #if result
+  if result
     result
-  #else
-    #sorry_message
-  #end
+  else
+    sorry_message
+  end
 end
 
 
