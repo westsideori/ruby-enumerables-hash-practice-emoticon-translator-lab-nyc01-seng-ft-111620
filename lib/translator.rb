@@ -27,10 +27,10 @@ def get_english_meaning(file, japanese_emoticon)
       end
     end
   end
-  if result
+  #if result
     result
-  else
-    sorry_message
+  #else
+    #sorry_message
   end
 end
 
