@@ -23,7 +23,6 @@ def get_english_meaning(file, japanese_emoticon)
       if value == japanese_emoticon
         result = meaning
       end
-      if value 
     end
   end
   result
