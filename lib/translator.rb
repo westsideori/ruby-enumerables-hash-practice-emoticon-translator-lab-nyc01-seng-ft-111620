@@ -21,7 +21,7 @@ def get_english_meaning(file, japanese_emoticon)
   hash_library.each do |meaning, languages|
     if languages[:japanese] == japanese_emoticon
         result = meaning
-      end
+    end
   end
   if result
     result
